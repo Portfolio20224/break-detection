@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "break-detection"
+version = "0.1.0"
+description = "Prédiction de ruptures structurelles dans les séries temporelles en utilisant des approches d'apprentissage automatique. Exploite un large jeu de données étiquetées pour entraîner des modèles capables d'anticiper les changements de régime avant qu'ils ne se produisent."
+authors = ["Chadrack MAYAMBA"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
